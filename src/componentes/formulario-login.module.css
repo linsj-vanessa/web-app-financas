@@ -1,0 +1,62 @@
+:root {
+    --cor-preta: #111111; 
+    --cor-branca: #fefefe; 
+    --cor-azul: #007bff; 
+    --cor-azul-hover: #0056b3; 
+    --cor-cinza: #cccccc; 
+    }
+
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid var(--cor-cinza);
+    border-radius: 5px;
+    background-color: var(--cor-branca);
+    color: var(--cor-preta); /* Define cor do texto como preto */
+}
+
+.form div {
+    margin-bottom: 15px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--cor-preta);
+}
+
+.form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--cor-cinza);
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: var(--cor-preta); 
+    background-color: var(--cor-branca); 
+}
+
+.form button {
+    padding: 10px;
+    background-color: var(--cor-azul);
+    color: var(--cor-branca);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Adiciona espaço entre os botões */
+}
+
+.form button:last-child {
+    margin-bottom: 0; /* Remove a margem do último botão */
+}
+
+ .form button:hover {
+    background-color: var(--cor-azul-hover);
+}
+

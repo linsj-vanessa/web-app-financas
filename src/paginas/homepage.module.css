@@ -1,0 +1,158 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #fefefe;
+    color: #111111;
+}
+
+.sidebar {
+    width: 100px;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+     color: #fefefe;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fefefe;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+     color: #fefefe;
+}
+
+.navigation a{
+    font-size: 1.5rem;
+    color: #fefefe;
+     text-decoration: none;
+}
+.mainContent {
+    flex: 1;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.saldoSection {
+  display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+
+.saldoSection h3 {
+    font-size: 1rem;
+}
+
+.saldoSection span {
+     font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+}
+.saldoSection .actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  justify-content: flex-end;
+ }
+
+.saldoSection button {
+ padding: 8px 12px;
+   background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.operationsSection{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+    }
+    .operationsList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.operationItem {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+    border: 1px solid #cccccc;
+   border-radius: 5px;
+}
+
+.operationDescription{
+    display: flex;
+     flex-direction: column;
+     gap: 3px;
+
+}
+
+.spendingSection{
+    margin-bottom: 20px;
+  padding-bottom: 20px;
+ border-bottom: 1px solid #cccccc;
+}
+.spendingChart {
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.spendingList{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.spendingItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    }
+    .spendingItem > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    }
+    .premiumSection {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    }
+    .premiumSection button{
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    }
